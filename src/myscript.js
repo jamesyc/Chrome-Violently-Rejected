@@ -1,11 +1,6 @@
-// function seenreplace(a, b) {
-//   return b.replace('Seen', 'Violently rejected');
-// }
-
-
 $("._li").bind("DOMSubtreeModified", function() {
 
-    // $( "span", ".seen" ).text(seenreplace(index,currentcontent));
+	// console.log($( "span", ".seen" ).html());
 
     // fuck it, copy achal's firefox stuff, jquery is annoying
     var seenElems = document.getElementsByClassName('seen');
