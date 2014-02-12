@@ -14,7 +14,8 @@
   "content_scripts": [
     {
       "matches": ["*://www.facebook.com/*"],
-      "js": ["jquery-1.11.0.min.js", "myscript.js"]
+      "js": ["jquery-1.11.0.min.js", "myscript.js"],
+      "run_at": "document_end"
     }
   ]
 }
