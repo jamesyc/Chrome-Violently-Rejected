@@ -7,7 +7,7 @@ $("._li").bind("DOMSubtreeModified", function() {
 
     // $( "span", ".seen" ).text(seenreplace(index,currentcontent));
 
-    // fuck it, copy achal's firefox stuff
+    // fuck it, copy achal's firefox stuff, jquery is annoying
     var seenElems = document.getElementsByClassName('seen');
     for (var i = 0; i < seenElems.length; ++i) {
         var seen = seenElems[i].firstChild.nextSibling.firstChild;
